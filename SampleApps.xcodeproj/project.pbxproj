@@ -11,6 +11,11 @@
 		D825C29D2994B1F200451898 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D825C29C2994B1F200451898 /* ContentView.swift */; };
 		D825C29F2994B1F300451898 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D825C29E2994B1F300451898 /* Assets.xcassets */; };
 		D825C2A22994B1F300451898 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D825C2A12994B1F300451898 /* Preview Assets.xcassets */; };
+		D825C2B92994D12B00451898 /* AboutMeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D825C2B42994D12B00451898 /* AboutMeInfo.swift */; };
+		D825C2BA2994D12B00451898 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D825C2B52994D12B00451898 /* FavoritesView.swift */; };
+		D825C2BB2994D12B00451898 /* FunFactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D825C2B62994D12B00451898 /* FunFactsView.swift */; };
+		D825C2BC2994D12B00451898 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D825C2B72994D12B00451898 /* HomeView.swift */; };
+		D825C2BD2994D12B00451898 /* StoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D825C2B82994D12B00451898 /* StoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		D825C29C2994B1F200451898 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D825C29E2994B1F300451898 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D825C2A12994B1F300451898 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D825C2B42994D12B00451898 /* AboutMeInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutMeInfo.swift; sourceTree = "<group>"; };
+		D825C2B52994D12B00451898 /* FavoritesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		D825C2B62994D12B00451898 /* FunFactsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunFactsView.swift; sourceTree = "<group>"; };
+		D825C2B72994D12B00451898 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D825C2B82994D12B00451898 /* StoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				D825C29A2994B1F200451898 /* SampleAppsApp.swift */,
-				D825C29C2994B1F200451898 /* ContentView.swift */,
+				D825C2B32994D0ED00451898 /* AboutMe */,
 				D825C29E2994B1F300451898 /* Assets.xcassets */,
 				D825C2A02994B1F300451898 /* Preview Content */,
 			);
@@ -65,6 +75,19 @@
 				D825C2A12994B1F300451898 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D825C2B32994D0ED00451898 /* AboutMe */ = {
+			isa = PBXGroup;
+			children = (
+				D825C2B42994D12B00451898 /* AboutMeInfo.swift */,
+				D825C2B52994D12B00451898 /* FavoritesView.swift */,
+				D825C2B62994D12B00451898 /* FunFactsView.swift */,
+				D825C2B72994D12B00451898 /* HomeView.swift */,
+				D825C2B82994D12B00451898 /* StoryView.swift */,
+				D825C29C2994B1F200451898 /* ContentView.swift */,
+			);
+			path = AboutMe;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +160,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D825C2BA2994D12B00451898 /* FavoritesView.swift in Sources */,
+				D825C2BB2994D12B00451898 /* FunFactsView.swift in Sources */,
 				D825C29D2994B1F200451898 /* ContentView.swift in Sources */,
+				D825C2BD2994D12B00451898 /* StoryView.swift in Sources */,
+				D825C2BC2994D12B00451898 /* HomeView.swift in Sources */,
+				D825C2B92994D12B00451898 /* AboutMeInfo.swift in Sources */,
 				D825C29B2994B1F200451898 /* SampleAppsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
