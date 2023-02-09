@@ -11,7 +11,8 @@ import SwiftUI
 struct SampleAppsApp: App {
     var body: some Scene {
         WindowGroup {
-            AboutMeContentView()
+//            AboutMeContentView()
+            MyStoryContentView()
         }
     }
 }
