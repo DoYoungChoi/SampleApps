@@ -20,6 +20,19 @@
 		D825C2C22994D5AE00451898 /* MyStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D825C2C12994D5AE00451898 /* MyStory.swift */; };
 		D825C2C42994D82100451898 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = D825C2C32994D82100451898 /* Story.swift */; };
 		D825C2C82994DDF000451898 /* StoryPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D825C2C72994DDF000451898 /* StoryPageView.swift */; };
+		D825C2CB299543BF00451898 /* DatePlannerContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D825C2CA299543BF00451898 /* DatePlannerContentView.swift */; };
+		D825C2CD29954C5D00451898 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = D825C2CC29954C5D00451898 /* Event.swift */; };
+		D825C2CF299551B200451898 /* EventTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = D825C2CE299551B200451898 /* EventTask.swift */; };
+		D825C2D1299553C200451898 /* EventData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D825C2D0299553C200451898 /* EventData.swift */; };
+		D825C2D329955AC700451898 /* EventListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D825C2D229955AC700451898 /* EventListView.swift */; };
+		D825C2D629955B2300451898 /* ColorOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = D825C2D429955B2200451898 /* ColorOption.swift */; };
+		D825C2D729955B2300451898 /* EventSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = D825C2D529955B2300451898 /* EventSymbols.swift */; };
+		D825C2D929955C0300451898 /* EventEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D825C2D829955C0300451898 /* EventEditor.swift */; };
+		D825C2DB29955C1700451898 /* EventDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D825C2DA29955C1700451898 /* EventDetail.swift */; };
+		D825C2DD29955C3400451898 /* EventRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D825C2DC29955C3400451898 /* EventRow.swift */; };
+		D825C2DF29955C4800451898 /* SFSymbolStyling.swift in Sources */ = {isa = PBXBuildFile; fileRef = D825C2DE29955C4800451898 /* SFSymbolStyling.swift */; };
+		D825C2E129955C6500451898 /* TaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D825C2E029955C6500451898 /* TaskRow.swift */; };
+		D825C2E329955C6C00451898 /* SymbolPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D825C2E229955C6C00451898 /* SymbolPicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +50,19 @@
 		D825C2C12994D5AE00451898 /* MyStory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStory.swift; sourceTree = "<group>"; };
 		D825C2C32994D82100451898 /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
 		D825C2C72994DDF000451898 /* StoryPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryPageView.swift; sourceTree = "<group>"; };
+		D825C2CA299543BF00451898 /* DatePlannerContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePlannerContentView.swift; sourceTree = "<group>"; };
+		D825C2CC29954C5D00451898 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		D825C2CE299551B200451898 /* EventTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTask.swift; sourceTree = "<group>"; };
+		D825C2D0299553C200451898 /* EventData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventData.swift; sourceTree = "<group>"; };
+		D825C2D229955AC700451898 /* EventListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListView.swift; sourceTree = "<group>"; };
+		D825C2D429955B2200451898 /* ColorOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorOption.swift; sourceTree = "<group>"; };
+		D825C2D529955B2300451898 /* EventSymbols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventSymbols.swift; sourceTree = "<group>"; };
+		D825C2D829955C0300451898 /* EventEditor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventEditor.swift; sourceTree = "<group>"; };
+		D825C2DA29955C1700451898 /* EventDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetail.swift; sourceTree = "<group>"; };
+		D825C2DC29955C3400451898 /* EventRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventRow.swift; sourceTree = "<group>"; };
+		D825C2DE29955C4800451898 /* SFSymbolStyling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFSymbolStyling.swift; sourceTree = "<group>"; };
+		D825C2E029955C6500451898 /* TaskRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskRow.swift; sourceTree = "<group>"; };
+		D825C2E229955C6C00451898 /* SymbolPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SymbolPicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +98,7 @@
 				D825C29A2994B1F200451898 /* SampleAppsApp.swift */,
 				D825C2B32994D0ED00451898 /* AboutMe */,
 				D825C2BE2994D3E600451898 /* ChooseYourOwnStory */,
+				D825C2C92995439F00451898 /* DatePlanner */,
 				D825C29E2994B1F300451898 /* Assets.xcassets */,
 				D825C2A02994B1F300451898 /* Preview Content */,
 			);
@@ -108,6 +135,26 @@
 				D825C2C72994DDF000451898 /* StoryPageView.swift */,
 			);
 			path = ChooseYourOwnStory;
+			sourceTree = "<group>";
+		};
+		D825C2C92995439F00451898 /* DatePlanner */ = {
+			isa = PBXGroup;
+			children = (
+				D825C2E229955C6C00451898 /* SymbolPicker.swift */,
+				D825C2E029955C6500451898 /* TaskRow.swift */,
+				D825C2DE29955C4800451898 /* SFSymbolStyling.swift */,
+				D825C2DC29955C3400451898 /* EventRow.swift */,
+				D825C2DA29955C1700451898 /* EventDetail.swift */,
+				D825C2D829955C0300451898 /* EventEditor.swift */,
+				D825C2D429955B2200451898 /* ColorOption.swift */,
+				D825C2D529955B2300451898 /* EventSymbols.swift */,
+				D825C2CA299543BF00451898 /* DatePlannerContentView.swift */,
+				D825C2CC29954C5D00451898 /* Event.swift */,
+				D825C2CE299551B200451898 /* EventTask.swift */,
+				D825C2D0299553C200451898 /* EventData.swift */,
+				D825C2D229955AC700451898 /* EventListView.swift */,
+			);
+			path = DatePlanner;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,17 +227,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D825C2E129955C6500451898 /* TaskRow.swift in Sources */,
 				D825C2BA2994D12B00451898 /* FavoritesView.swift in Sources */,
+				D825C2CF299551B200451898 /* EventTask.swift in Sources */,
+				D825C2D1299553C200451898 /* EventData.swift in Sources */,
 				D825C2C02994D40600451898 /* MyStoryContentView.swift in Sources */,
+				D825C2DD29955C3400451898 /* EventRow.swift in Sources */,
+				D825C2D629955B2300451898 /* ColorOption.swift in Sources */,
 				D825C2BB2994D12B00451898 /* FunFactsView.swift in Sources */,
+				D825C2CB299543BF00451898 /* DatePlannerContentView.swift in Sources */,
+				D825C2E329955C6C00451898 /* SymbolPicker.swift in Sources */,
 				D825C29D2994B1F200451898 /* AboutMeContentView.swift in Sources */,
+				D825C2D329955AC700451898 /* EventListView.swift in Sources */,
 				D825C2C82994DDF000451898 /* StoryPageView.swift in Sources */,
 				D825C2BD2994D12B00451898 /* StoryView.swift in Sources */,
 				D825C2BC2994D12B00451898 /* HomeView.swift in Sources */,
 				D825C2B92994D12B00451898 /* AboutMeInfo.swift in Sources */,
+				D825C2DB29955C1700451898 /* EventDetail.swift in Sources */,
 				D825C29B2994B1F200451898 /* SampleAppsApp.swift in Sources */,
+				D825C2D729955B2300451898 /* EventSymbols.swift in Sources */,
 				D825C2C22994D5AE00451898 /* MyStory.swift in Sources */,
+				D825C2D929955C0300451898 /* EventEditor.swift in Sources */,
 				D825C2C42994D82100451898 /* Story.swift in Sources */,
+				D825C2CD29954C5D00451898 /* Event.swift in Sources */,
+				D825C2DF29955C4800451898 /* SFSymbolStyling.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

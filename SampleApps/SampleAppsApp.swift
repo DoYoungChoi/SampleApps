@@ -12,7 +12,8 @@ struct SampleAppsApp: App {
     var body: some Scene {
         WindowGroup {
 //            AboutMeContentView()
-            MyStoryContentView()
+//            MyStoryContentView()
+            DatePlannerContentView()
         }
     }
 }
