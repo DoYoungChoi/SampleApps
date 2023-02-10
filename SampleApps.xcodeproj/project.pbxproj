@@ -33,6 +33,7 @@
 		D825C2DF29955C4800451898 /* SFSymbolStyling.swift in Sources */ = {isa = PBXBuildFile; fileRef = D825C2DE29955C4800451898 /* SFSymbolStyling.swift */; };
 		D825C2E129955C6500451898 /* TaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D825C2E029955C6500451898 /* TaskRow.swift */; };
 		D825C2E329955C6C00451898 /* SymbolPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D825C2E229955C6C00451898 /* SymbolPicker.swift */; };
+		D825C2E629960E9A00451898 /* ColorGridContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D825C2E529960E9A00451898 /* ColorGridContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +64,7 @@
 		D825C2DE29955C4800451898 /* SFSymbolStyling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFSymbolStyling.swift; sourceTree = "<group>"; };
 		D825C2E029955C6500451898 /* TaskRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskRow.swift; sourceTree = "<group>"; };
 		D825C2E229955C6C00451898 /* SymbolPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SymbolPicker.swift; sourceTree = "<group>"; };
+		D825C2E529960E9A00451898 /* ColorGridContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorGridContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				D825C2B32994D0ED00451898 /* AboutMe */,
 				D825C2BE2994D3E600451898 /* ChooseYourOwnStory */,
 				D825C2C92995439F00451898 /* DatePlanner */,
+				D825C2E429960E7C00451898 /* ColorGrid */,
 				D825C29E2994B1F300451898 /* Assets.xcassets */,
 				D825C2A02994B1F300451898 /* Preview Content */,
 			);
@@ -155,6 +158,14 @@
 				D825C2D229955AC700451898 /* EventListView.swift */,
 			);
 			path = DatePlanner;
+			sourceTree = "<group>";
+		};
+		D825C2E429960E7C00451898 /* ColorGrid */ = {
+			isa = PBXGroup;
+			children = (
+				D825C2E529960E9A00451898 /* ColorGridContentView.swift */,
+			);
+			path = ColorGrid;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,6 +256,7 @@
 				D825C2B92994D12B00451898 /* AboutMeInfo.swift in Sources */,
 				D825C2DB29955C1700451898 /* EventDetail.swift in Sources */,
 				D825C29B2994B1F200451898 /* SampleAppsApp.swift in Sources */,
+				D825C2E629960E9A00451898 /* ColorGridContentView.swift in Sources */,
 				D825C2D729955B2300451898 /* EventSymbols.swift in Sources */,
 				D825C2C22994D5AE00451898 /* MyStory.swift in Sources */,
 				D825C2D929955C0300451898 /* EventEditor.swift in Sources */,
