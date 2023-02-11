@@ -13,7 +13,9 @@ struct SampleAppsApp: App {
         WindowGroup {
 //            AboutMeContentView()
 //            MyStoryContentView()
-            DatePlannerContentView()
+//            DatePlannerContentView()
+//            ColorGridContentView()
+            SymbolGridContentView()
         }
     }
 }

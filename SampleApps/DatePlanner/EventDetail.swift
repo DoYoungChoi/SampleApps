@@ -72,7 +72,7 @@ struct EventDetail: View {
         .navigationBarTitleDisplayMode(.inline)
         #endif
         .sheet(isPresented: $isPickingSymbol) {
-            SymbolPicker(event: $event)
+            EventSymbolPicker(event: $event)
         }
     }
 }

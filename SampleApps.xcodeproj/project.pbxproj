@@ -32,8 +32,13 @@
 		D825C2DD29955C3400451898 /* EventRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D825C2DC29955C3400451898 /* EventRow.swift */; };
 		D825C2DF29955C4800451898 /* SFSymbolStyling.swift in Sources */ = {isa = PBXBuildFile; fileRef = D825C2DE29955C4800451898 /* SFSymbolStyling.swift */; };
 		D825C2E129955C6500451898 /* TaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D825C2E029955C6500451898 /* TaskRow.swift */; };
-		D825C2E329955C6C00451898 /* SymbolPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D825C2E229955C6C00451898 /* SymbolPicker.swift */; };
+		D825C2E329955C6C00451898 /* EventSymbolPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D825C2E229955C6C00451898 /* EventSymbolPicker.swift */; };
 		D825C2E629960E9A00451898 /* ColorGridContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D825C2E529960E9A00451898 /* ColorGridContentView.swift */; };
+		D825C2E929961A8A00451898 /* SymbolGridContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D825C2E829961A8A00451898 /* SymbolGridContentView.swift */; };
+		D825C2EB29961ACB00451898 /* SymbolGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = D825C2EA29961ACB00451898 /* SymbolGrid.swift */; };
+		D825C2ED29961C6100451898 /* Symbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D825C2EC29961C6100451898 /* Symbol.swift */; };
+		D825C2EF29961E5000451898 /* SymbolDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D825C2EE29961E5000451898 /* SymbolDetail.swift */; };
+		D825C2F5299625BC00451898 /* SymbolPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D825C2F4299625BC00451898 /* SymbolPicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,8 +68,13 @@
 		D825C2DC29955C3400451898 /* EventRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventRow.swift; sourceTree = "<group>"; };
 		D825C2DE29955C4800451898 /* SFSymbolStyling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFSymbolStyling.swift; sourceTree = "<group>"; };
 		D825C2E029955C6500451898 /* TaskRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskRow.swift; sourceTree = "<group>"; };
-		D825C2E229955C6C00451898 /* SymbolPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SymbolPicker.swift; sourceTree = "<group>"; };
+		D825C2E229955C6C00451898 /* EventSymbolPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventSymbolPicker.swift; sourceTree = "<group>"; };
 		D825C2E529960E9A00451898 /* ColorGridContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorGridContentView.swift; sourceTree = "<group>"; };
+		D825C2E829961A8A00451898 /* SymbolGridContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolGridContentView.swift; sourceTree = "<group>"; };
+		D825C2EA29961ACB00451898 /* SymbolGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolGrid.swift; sourceTree = "<group>"; };
+		D825C2EC29961C6100451898 /* Symbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symbol.swift; sourceTree = "<group>"; };
+		D825C2EE29961E5000451898 /* SymbolDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolDetail.swift; sourceTree = "<group>"; };
+		D825C2F4299625BC00451898 /* SymbolPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SymbolPicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +112,7 @@
 				D825C2BE2994D3E600451898 /* ChooseYourOwnStory */,
 				D825C2C92995439F00451898 /* DatePlanner */,
 				D825C2E429960E7C00451898 /* ColorGrid */,
+				D825C2E729961A7400451898 /* SymbolGrid */,
 				D825C29E2994B1F300451898 /* Assets.xcassets */,
 				D825C2A02994B1F300451898 /* Preview Content */,
 			);
@@ -143,7 +154,7 @@
 		D825C2C92995439F00451898 /* DatePlanner */ = {
 			isa = PBXGroup;
 			children = (
-				D825C2E229955C6C00451898 /* SymbolPicker.swift */,
+				D825C2E229955C6C00451898 /* EventSymbolPicker.swift */,
 				D825C2E029955C6500451898 /* TaskRow.swift */,
 				D825C2DE29955C4800451898 /* SFSymbolStyling.swift */,
 				D825C2DC29955C3400451898 /* EventRow.swift */,
@@ -166,6 +177,18 @@
 				D825C2E529960E9A00451898 /* ColorGridContentView.swift */,
 			);
 			path = ColorGrid;
+			sourceTree = "<group>";
+		};
+		D825C2E729961A7400451898 /* SymbolGrid */ = {
+			isa = PBXGroup;
+			children = (
+				D825C2F4299625BC00451898 /* SymbolPicker.swift */,
+				D825C2E829961A8A00451898 /* SymbolGridContentView.swift */,
+				D825C2EA29961ACB00451898 /* SymbolGrid.swift */,
+				D825C2EC29961C6100451898 /* Symbol.swift */,
+				D825C2EE29961E5000451898 /* SymbolDetail.swift */,
+			);
+			path = SymbolGrid;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,10 +267,11 @@
 				D825C2D1299553C200451898 /* EventData.swift in Sources */,
 				D825C2C02994D40600451898 /* MyStoryContentView.swift in Sources */,
 				D825C2DD29955C3400451898 /* EventRow.swift in Sources */,
+				D825C2E929961A8A00451898 /* SymbolGridContentView.swift in Sources */,
 				D825C2D629955B2300451898 /* ColorOption.swift in Sources */,
 				D825C2BB2994D12B00451898 /* FunFactsView.swift in Sources */,
 				D825C2CB299543BF00451898 /* DatePlannerContentView.swift in Sources */,
-				D825C2E329955C6C00451898 /* SymbolPicker.swift in Sources */,
+				D825C2E329955C6C00451898 /* EventSymbolPicker.swift in Sources */,
 				D825C29D2994B1F200451898 /* AboutMeContentView.swift in Sources */,
 				D825C2D329955AC700451898 /* EventListView.swift in Sources */,
 				D825C2C82994DDF000451898 /* StoryPageView.swift in Sources */,
@@ -258,11 +282,15 @@
 				D825C29B2994B1F200451898 /* SampleAppsApp.swift in Sources */,
 				D825C2E629960E9A00451898 /* ColorGridContentView.swift in Sources */,
 				D825C2D729955B2300451898 /* EventSymbols.swift in Sources */,
+				D825C2F5299625BC00451898 /* SymbolPicker.swift in Sources */,
 				D825C2C22994D5AE00451898 /* MyStory.swift in Sources */,
+				D825C2EF29961E5000451898 /* SymbolDetail.swift in Sources */,
 				D825C2D929955C0300451898 /* EventEditor.swift in Sources */,
 				D825C2C42994D82100451898 /* Story.swift in Sources */,
 				D825C2CD29954C5D00451898 /* Event.swift in Sources */,
+				D825C2ED29961C6100451898 /* Symbol.swift in Sources */,
 				D825C2DF29955C4800451898 /* SFSymbolStyling.swift in Sources */,
+				D825C2EB29961ACB00451898 /* SymbolGrid.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

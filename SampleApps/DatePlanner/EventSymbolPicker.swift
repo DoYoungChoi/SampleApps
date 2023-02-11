@@ -4,7 +4,7 @@ See the License.txt file for this sample’s licensing information.
 
 import SwiftUI
 
-struct SymbolPicker: View {
+struct EventSymbolPicker: View {
     @Binding var event: Event
     @State private var selectedColor: Color = ColorOptions.default
     @Environment(\.dismiss) private var dismiss
@@ -74,6 +74,6 @@ struct SymbolPicker: View {
 
 struct SFSymbolBrowser_Previews: PreviewProvider {
     static var previews: some View {
-        SymbolPicker(event: .constant(Event.example))
+        EventSymbolPicker(event: .constant(Event.example))
     }
 }
