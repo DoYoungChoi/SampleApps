@@ -39,6 +39,37 @@
 		D825C2ED29961C6100451898 /* Symbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D825C2EC29961C6100451898 /* Symbol.swift */; };
 		D825C2EF29961E5000451898 /* SymbolDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D825C2EE29961E5000451898 /* SymbolDetail.swift */; };
 		D825C2F5299625BC00451898 /* SymbolPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D825C2F4299625BC00451898 /* SymbolPicker.swift */; };
+		D825C2F82997749500451898 /* ImageGalleryContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D825C2F72997749500451898 /* ImageGalleryContentView.swift */; };
+		D825C2FA299777CD00451898 /* ImageItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D825C2F9299777CD00451898 /* ImageItem.swift */; };
+		D825C2FC299778E300451898 /* ImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D825C2FB299778E300451898 /* ImageData.swift */; };
+		D825C2FE29977CB700451898 /* FileManagerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D825C2FD29977CB700451898 /* FileManagerExtensions.swift */; };
+		D825C30029977F9B00451898 /* ImageGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D825C2FF29977F9B00451898 /* ImageGridView.swift */; };
+		D825C3022997812800451898 /* ImageGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D825C3012997812800451898 /* ImageGridItemView.swift */; };
+		D825C3042997860100451898 /* ColumnStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D825C3032997860100451898 /* ColumnStepper.swift */; };
+		D825C3062997865000451898 /* ImageDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D825C3052997865000451898 /* ImageDetailView.swift */; };
+		D825C3082997869D00451898 /* PhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D825C3072997869D00451898 /* PhotoPicker.swift */; };
+		D825C320299787F500451898 /* groundSquirrel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D825C30A299787F500451898 /* groundSquirrel.jpg */; };
+		D825C321299787F500451898 /* yellowBelliedMarmot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D825C30B299787F500451898 /* yellowBelliedMarmot.jpg */; };
+		D825C322299787F500451898 /* bullTuleElkAndTwoFemales.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D825C30C299787F500451898 /* bullTuleElkAndTwoFemales.jpg */; };
+		D825C323299787F500451898 /* soaringTheRainbow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D825C30D299787F500451898 /* soaringTheRainbow.jpg */; };
+		D825C324299787F500451898 /* harborSealPup.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D825C30E299787F500451898 /* harborSealPup.jpg */; };
+		D825C325299787F500451898 /* grizzlyCubs.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D825C30F299787F500451898 /* grizzlyCubs.jpg */; };
+		D825C326299787F500451898 /* redTailedHawk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D825C310299787F500451898 /* redTailedHawk.jpg */; };
+		D825C327299787F500451898 /* doubleRainbowLowerMammoth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D825C311299787F500451898 /* doubleRainbowLowerMammoth.jpg */; };
+		D825C328299787F500451898 /* newGrowthOfAntlers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D825C312299787F500451898 /* newGrowthOfAntlers.jpg */; };
+		D825C329299787F500451898 /* harborSeal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D825C313299787F500451898 /* harborSeal.jpg */; };
+		D825C32A299787F500451898 /* sunriseAtGrottoGeyser.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D825C314299787F500451898 /* sunriseAtGrottoGeyser.jpg */; };
+		D825C32B299787F500451898 /* owlsAtMammoth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D825C315299787F500451898 /* owlsAtMammoth.jpg */; };
+		D825C32C299787F500451898 /* heartSpring.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D825C316299787F500451898 /* heartSpring.jpg */; };
+		D825C32D299787F500451898 /* bobcat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D825C317299787F500451898 /* bobcat.jpg */; };
+		D825C32E299787F500451898 /* doubleRainbowYellowstone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D825C318299787F500451898 /* doubleRainbowYellowstone.jpg */; };
+		D825C32F299787F500451898 /* bullElk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D825C319299787F500451898 /* bullElk.jpg */; };
+		D825C330299787F500451898 /* coyoteAndBison.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D825C31A299787F500451898 /* coyoteAndBison.jpg */; };
+		D825C331299787F500451898 /* riverOtter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D825C31B299787F500451898 /* riverOtter.jpg */; };
+		D825C332299787F500451898 /* bullElkSparring.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D825C31C299787F500451898 /* bullElkSparring.jpg */; };
+		D825C333299787F500451898 /* grizzly.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D825C31D299787F500451898 /* grizzly.jpg */; };
+		D825C334299787F500451898 /* towerCreekBASIN.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D825C31E299787F500451898 /* towerCreekBASIN.jpg */; };
+		D825C335299787F500451898 /* rainbowAndBadlands.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D825C31F299787F500451898 /* rainbowAndBadlands.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,6 +106,37 @@
 		D825C2EC29961C6100451898 /* Symbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symbol.swift; sourceTree = "<group>"; };
 		D825C2EE29961E5000451898 /* SymbolDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolDetail.swift; sourceTree = "<group>"; };
 		D825C2F4299625BC00451898 /* SymbolPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SymbolPicker.swift; sourceTree = "<group>"; };
+		D825C2F72997749500451898 /* ImageGalleryContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGalleryContentView.swift; sourceTree = "<group>"; };
+		D825C2F9299777CD00451898 /* ImageItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageItem.swift; sourceTree = "<group>"; };
+		D825C2FB299778E300451898 /* ImageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageData.swift; sourceTree = "<group>"; };
+		D825C2FD29977CB700451898 /* FileManagerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerExtensions.swift; sourceTree = "<group>"; };
+		D825C2FF29977F9B00451898 /* ImageGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGridView.swift; sourceTree = "<group>"; };
+		D825C3012997812800451898 /* ImageGridItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGridItemView.swift; sourceTree = "<group>"; };
+		D825C3032997860100451898 /* ColumnStepper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColumnStepper.swift; sourceTree = "<group>"; };
+		D825C3052997865000451898 /* ImageDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDetailView.swift; sourceTree = "<group>"; };
+		D825C3072997869D00451898 /* PhotoPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoPicker.swift; sourceTree = "<group>"; };
+		D825C30A299787F500451898 /* groundSquirrel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = groundSquirrel.jpg; sourceTree = "<group>"; };
+		D825C30B299787F500451898 /* yellowBelliedMarmot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yellowBelliedMarmot.jpg; sourceTree = "<group>"; };
+		D825C30C299787F500451898 /* bullTuleElkAndTwoFemales.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bullTuleElkAndTwoFemales.jpg; sourceTree = "<group>"; };
+		D825C30D299787F500451898 /* soaringTheRainbow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = soaringTheRainbow.jpg; sourceTree = "<group>"; };
+		D825C30E299787F500451898 /* harborSealPup.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = harborSealPup.jpg; sourceTree = "<group>"; };
+		D825C30F299787F500451898 /* grizzlyCubs.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grizzlyCubs.jpg; sourceTree = "<group>"; };
+		D825C310299787F500451898 /* redTailedHawk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = redTailedHawk.jpg; sourceTree = "<group>"; };
+		D825C311299787F500451898 /* doubleRainbowLowerMammoth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = doubleRainbowLowerMammoth.jpg; sourceTree = "<group>"; };
+		D825C312299787F500451898 /* newGrowthOfAntlers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = newGrowthOfAntlers.jpg; sourceTree = "<group>"; };
+		D825C313299787F500451898 /* harborSeal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = harborSeal.jpg; sourceTree = "<group>"; };
+		D825C314299787F500451898 /* sunriseAtGrottoGeyser.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sunriseAtGrottoGeyser.jpg; sourceTree = "<group>"; };
+		D825C315299787F500451898 /* owlsAtMammoth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = owlsAtMammoth.jpg; sourceTree = "<group>"; };
+		D825C316299787F500451898 /* heartSpring.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = heartSpring.jpg; sourceTree = "<group>"; };
+		D825C317299787F500451898 /* bobcat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bobcat.jpg; sourceTree = "<group>"; };
+		D825C318299787F500451898 /* doubleRainbowYellowstone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = doubleRainbowYellowstone.jpg; sourceTree = "<group>"; };
+		D825C319299787F500451898 /* bullElk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bullElk.jpg; sourceTree = "<group>"; };
+		D825C31A299787F500451898 /* coyoteAndBison.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coyoteAndBison.jpg; sourceTree = "<group>"; };
+		D825C31B299787F500451898 /* riverOtter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = riverOtter.jpg; sourceTree = "<group>"; };
+		D825C31C299787F500451898 /* bullElkSparring.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bullElkSparring.jpg; sourceTree = "<group>"; };
+		D825C31D299787F500451898 /* grizzly.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grizzly.jpg; sourceTree = "<group>"; };
+		D825C31E299787F500451898 /* towerCreekBASIN.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = towerCreekBASIN.jpg; sourceTree = "<group>"; };
+		D825C31F299787F500451898 /* rainbowAndBadlands.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rainbowAndBadlands.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +175,7 @@
 				D825C2C92995439F00451898 /* DatePlanner */,
 				D825C2E429960E7C00451898 /* ColorGrid */,
 				D825C2E729961A7400451898 /* SymbolGrid */,
+				D825C2F62997747800451898 /* ImageGallery */,
 				D825C29E2994B1F300451898 /* Assets.xcassets */,
 				D825C2A02994B1F300451898 /* Preview Content */,
 			);
@@ -191,6 +254,52 @@
 			path = SymbolGrid;
 			sourceTree = "<group>";
 		};
+		D825C2F62997747800451898 /* ImageGallery */ = {
+			isa = PBXGroup;
+			children = (
+				D825C309299787F500451898 /* Resources */,
+				D825C3052997865000451898 /* ImageDetailView.swift */,
+				D825C3032997860100451898 /* ColumnStepper.swift */,
+				D825C2F72997749500451898 /* ImageGalleryContentView.swift */,
+				D825C2F9299777CD00451898 /* ImageItem.swift */,
+				D825C2FB299778E300451898 /* ImageData.swift */,
+				D825C2FD29977CB700451898 /* FileManagerExtensions.swift */,
+				D825C2FF29977F9B00451898 /* ImageGridView.swift */,
+				D825C3012997812800451898 /* ImageGridItemView.swift */,
+				D825C3072997869D00451898 /* PhotoPicker.swift */,
+			);
+			path = ImageGallery;
+			sourceTree = "<group>";
+		};
+		D825C309299787F500451898 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D825C30A299787F500451898 /* groundSquirrel.jpg */,
+				D825C30B299787F500451898 /* yellowBelliedMarmot.jpg */,
+				D825C30C299787F500451898 /* bullTuleElkAndTwoFemales.jpg */,
+				D825C30D299787F500451898 /* soaringTheRainbow.jpg */,
+				D825C30E299787F500451898 /* harborSealPup.jpg */,
+				D825C30F299787F500451898 /* grizzlyCubs.jpg */,
+				D825C310299787F500451898 /* redTailedHawk.jpg */,
+				D825C311299787F500451898 /* doubleRainbowLowerMammoth.jpg */,
+				D825C312299787F500451898 /* newGrowthOfAntlers.jpg */,
+				D825C313299787F500451898 /* harborSeal.jpg */,
+				D825C314299787F500451898 /* sunriseAtGrottoGeyser.jpg */,
+				D825C315299787F500451898 /* owlsAtMammoth.jpg */,
+				D825C316299787F500451898 /* heartSpring.jpg */,
+				D825C317299787F500451898 /* bobcat.jpg */,
+				D825C318299787F500451898 /* doubleRainbowYellowstone.jpg */,
+				D825C319299787F500451898 /* bullElk.jpg */,
+				D825C31A299787F500451898 /* coyoteAndBison.jpg */,
+				D825C31B299787F500451898 /* riverOtter.jpg */,
+				D825C31C299787F500451898 /* bullElkSparring.jpg */,
+				D825C31D299787F500451898 /* grizzly.jpg */,
+				D825C31E299787F500451898 /* towerCreekBASIN.jpg */,
+				D825C31F299787F500451898 /* rainbowAndBadlands.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -249,8 +358,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D825C323299787F500451898 /* soaringTheRainbow.jpg in Resources */,
+				D825C320299787F500451898 /* groundSquirrel.jpg in Resources */,
+				D825C32C299787F500451898 /* heartSpring.jpg in Resources */,
+				D825C331299787F500451898 /* riverOtter.jpg in Resources */,
+				D825C322299787F500451898 /* bullTuleElkAndTwoFemales.jpg in Resources */,
+				D825C32D299787F500451898 /* bobcat.jpg in Resources */,
+				D825C330299787F500451898 /* coyoteAndBison.jpg in Resources */,
+				D825C332299787F500451898 /* bullElkSparring.jpg in Resources */,
+				D825C32F299787F500451898 /* bullElk.jpg in Resources */,
+				D825C32B299787F500451898 /* owlsAtMammoth.jpg in Resources */,
+				D825C328299787F500451898 /* newGrowthOfAntlers.jpg in Resources */,
+				D825C333299787F500451898 /* grizzly.jpg in Resources */,
+				D825C32A299787F500451898 /* sunriseAtGrottoGeyser.jpg in Resources */,
+				D825C334299787F500451898 /* towerCreekBASIN.jpg in Resources */,
+				D825C326299787F500451898 /* redTailedHawk.jpg in Resources */,
 				D825C2A22994B1F300451898 /* Preview Assets.xcassets in Resources */,
+				D825C32E299787F500451898 /* doubleRainbowYellowstone.jpg in Resources */,
 				D825C29F2994B1F300451898 /* Assets.xcassets in Resources */,
+				D825C321299787F500451898 /* yellowBelliedMarmot.jpg in Resources */,
+				D825C335299787F500451898 /* rainbowAndBadlands.jpg in Resources */,
+				D825C329299787F500451898 /* harborSeal.jpg in Resources */,
+				D825C327299787F500451898 /* doubleRainbowLowerMammoth.jpg in Resources */,
+				D825C325299787F500451898 /* grizzlyCubs.jpg in Resources */,
+				D825C324299787F500451898 /* harborSealPup.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,21 +405,30 @@
 				D825C2E329955C6C00451898 /* EventSymbolPicker.swift in Sources */,
 				D825C29D2994B1F200451898 /* AboutMeContentView.swift in Sources */,
 				D825C2D329955AC700451898 /* EventListView.swift in Sources */,
+				D825C2F82997749500451898 /* ImageGalleryContentView.swift in Sources */,
 				D825C2C82994DDF000451898 /* StoryPageView.swift in Sources */,
 				D825C2BD2994D12B00451898 /* StoryView.swift in Sources */,
 				D825C2BC2994D12B00451898 /* HomeView.swift in Sources */,
+				D825C2FC299778E300451898 /* ImageData.swift in Sources */,
 				D825C2B92994D12B00451898 /* AboutMeInfo.swift in Sources */,
 				D825C2DB29955C1700451898 /* EventDetail.swift in Sources */,
 				D825C29B2994B1F200451898 /* SampleAppsApp.swift in Sources */,
 				D825C2E629960E9A00451898 /* ColorGridContentView.swift in Sources */,
 				D825C2D729955B2300451898 /* EventSymbols.swift in Sources */,
+				D825C3082997869D00451898 /* PhotoPicker.swift in Sources */,
 				D825C2F5299625BC00451898 /* SymbolPicker.swift in Sources */,
 				D825C2C22994D5AE00451898 /* MyStory.swift in Sources */,
+				D825C30029977F9B00451898 /* ImageGridView.swift in Sources */,
 				D825C2EF29961E5000451898 /* SymbolDetail.swift in Sources */,
 				D825C2D929955C0300451898 /* EventEditor.swift in Sources */,
+				D825C2FE29977CB700451898 /* FileManagerExtensions.swift in Sources */,
+				D825C3042997860100451898 /* ColumnStepper.swift in Sources */,
+				D825C3022997812800451898 /* ImageGridItemView.swift in Sources */,
 				D825C2C42994D82100451898 /* Story.swift in Sources */,
 				D825C2CD29954C5D00451898 /* Event.swift in Sources */,
+				D825C2FA299777CD00451898 /* ImageItem.swift in Sources */,
 				D825C2ED29961C6100451898 /* Symbol.swift in Sources */,
+				D825C3062997865000451898 /* ImageDetailView.swift in Sources */,
 				D825C2DF29955C4800451898 /* SFSymbolStyling.swift in Sources */,
 				D825C2EB29961ACB00451898 /* SymbolGrid.swift in Sources */,
 			);
