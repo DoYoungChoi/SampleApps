@@ -57,14 +57,18 @@ class Coordinator: NSObject, UINavigationControllerDelegate, PHPickerViewControl
             if let error = error {
                 print("Error loading file representation: \(error.localizedDescription)")
             } else if let url = url {
-                if let savedUrl = FileManager.default.copyItemToDocumentDirectory(from: url) {
-                    // Add the new item to the data model.
-                    Task { @MainActor [dataModel = self.parent.dataModel] in
-                        withAnimation {
-                            let item = ImageItem(url: savedUrl)
-                            dataModel.addImageItem(item)
+                do {
+                    if let savedUrl = try FileManager.default.copyItemToDocumentDirectory(from: url) {
+                        // Add the new item to the data model.
+                        Task { @MainActor [dataModel = self.parent.dataModel] in
+                            withAnimation {
+                                let item = ImageItem(url: savedUrl)
+                                dataModel.addImageItem(item)
+                            }
                         }
                     }
+                } catch let error {
+                    print(error.localizedDescription)
                 }
             }
         }

@@ -10,10 +10,16 @@ import Foundation
 extension FileManager {
     
     var documentDirectory: URL? {
-        return self.urls(for: .documentDirectory, in: .userDomainMask).first
+//        return self.urls(for: .documentDirectory, in: .userDomainMask).first
+        do {
+             return try self.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: true)
+          }
+          catch let error {
+              fatalError("Unable to get the local documents url. Error: \(error)")
+          }
     }
     
-    func copyItemToDocumentDirectory(from sourceURL: URL) -> URL? {
+    func copyItemToDocumentDirectory(from sourceURL: URL) throws -> URL? {
         guard let documentDirectory = documentDirectory else { return nil }
         let fileName = sourceURL.lastPathComponent
         let destinationURL = documentDirectory.appendingPathComponent(fileName)
@@ -21,15 +27,9 @@ extension FileManager {
         if self.fileExists(atPath: destinationURL.path) {
             return destinationURL
         } else {
-            do {
-                try self.copyItem(at: sourceURL, to: destinationURL)
-                return destinationURL
-            } catch let error {
-                print("Unable to copy file: \(error.localizedDescription)")
-            }
+            try self.copyItem(at: sourceURL, to: destinationURL)
+            return destinationURL
         }
-        
-        return nil
     }
     
     func removeItemFromDocumentDirectory(url: URL) {
