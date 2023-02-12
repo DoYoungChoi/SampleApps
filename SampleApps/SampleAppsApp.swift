@@ -18,7 +18,8 @@ struct SampleAppsApp: App {
 //            SymbolGridContentView()
 //            ImageGalleryContentView()
 //            PandaMemeContentView()
-            BubbleLevelContentView()
+//            BubbleLevelContentView()
+            SeismometerBrowser()
         }
     }
 }
