@@ -16,7 +16,8 @@ struct SampleAppsApp: App {
 //            DatePlannerContentView()
 //            ColorGridContentView()
 //            SymbolGridContentView()
-            ImageGalleryContentView()
+//            ImageGalleryContentView()
+            PandaMemeContentView()
         }
     }
 }

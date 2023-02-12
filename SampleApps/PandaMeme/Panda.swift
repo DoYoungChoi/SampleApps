@@ -1,0 +1,23 @@
+//
+//  Panda.swift
+//  SampleApps
+//
+//  Created by Do-Young Choi on 2023/02/12.
+//
+
+import Foundation
+
+struct Panda: Codable {
+    var description: String
+    var imageUrl: URL?
+    
+    static let defaultPanda = Panda(
+        description: "Cute Panda",
+        imageUrl: URL(string: "https://assets.devpubs.apple.com/playgrounds/_assets/pandas/pandaBuggingOut.jpg")
+    )
+}
+
+
+struct PandaCollection: Codable {
+    var sample: [Panda]
+}
