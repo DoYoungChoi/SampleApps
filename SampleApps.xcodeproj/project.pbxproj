@@ -91,6 +91,12 @@
 		D84471EE29992191002A89BD /* SeismometerBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84471ED29992191002A89BD /* SeismometerBrowser.swift */; };
 		D84471F029992205002A89BD /* LineGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84471EF29992205002A89BD /* LineGraph.swift */; };
 		D84471F22999220A002A89BD /* GaugeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84471F12999220A002A89BD /* GaugeBackground.swift */; };
+		D84471F5299934B5002A89BD /* GestureContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84471F4299934B5002A89BD /* GestureContentView.swift */; };
+		D84471F7299934DD002A89BD /* TapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84471F6299934DD002A89BD /* TapView.swift */; };
+		D84471F9299937E1002A89BD /* LongPressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84471F8299937E1002A89BD /* LongPressView.swift */; };
+		D84471FB299939DA002A89BD /* DragView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84471FA299939DA002A89BD /* DragView.swift */; };
+		D84471FD29993C00002A89BD /* RotateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84471FC29993C00002A89BD /* RotateView.swift */; };
+		D84471FF29993E4D002A89BD /* SingleLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84471FE29993E4D002A89BD /* SingleLineView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -179,6 +185,12 @@
 		D84471ED29992191002A89BD /* SeismometerBrowser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeismometerBrowser.swift; sourceTree = "<group>"; };
 		D84471EF29992205002A89BD /* LineGraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineGraph.swift; sourceTree = "<group>"; };
 		D84471F12999220A002A89BD /* GaugeBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GaugeBackground.swift; sourceTree = "<group>"; };
+		D84471F4299934B5002A89BD /* GestureContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureContentView.swift; sourceTree = "<group>"; };
+		D84471F6299934DD002A89BD /* TapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapView.swift; sourceTree = "<group>"; };
+		D84471F8299937E1002A89BD /* LongPressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressView.swift; sourceTree = "<group>"; };
+		D84471FA299939DA002A89BD /* DragView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragView.swift; sourceTree = "<group>"; };
+		D84471FC29993C00002A89BD /* RotateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateView.swift; sourceTree = "<group>"; };
+		D84471FE29993E4D002A89BD /* SingleLineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleLineView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -222,6 +234,7 @@
 				D84471D22998AEE8002A89BD /* PandaMeme */,
 				D84471DD2998CEB6002A89BD /* BubbleLevel */,
 				D84471E829991CF8002A89BD /* Seismometer */,
+				D84471F329993431002A89BD /* Gestures */,
 				D825C29E2994B1F300451898 /* Assets.xcassets */,
 				D825C2A02994B1F300451898 /* Preview Content */,
 			);
@@ -403,6 +416,19 @@
 			path = Seismometer;
 			sourceTree = "<group>";
 		};
+		D84471F329993431002A89BD /* Gestures */ = {
+			isa = PBXGroup;
+			children = (
+				D84471F4299934B5002A89BD /* GestureContentView.swift */,
+				D84471F6299934DD002A89BD /* TapView.swift */,
+				D84471F8299937E1002A89BD /* LongPressView.swift */,
+				D84471FA299939DA002A89BD /* DragView.swift */,
+				D84471FC29993C00002A89BD /* RotateView.swift */,
+				D84471FE29993E4D002A89BD /* SingleLineView.swift */,
+			);
+			path = Gestures;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -497,6 +523,7 @@
 			files = (
 				D825C2E129955C6500451898 /* TaskRow.swift in Sources */,
 				D825C2BA2994D12B00451898 /* FavoritesView.swift in Sources */,
+				D84471FB299939DA002A89BD /* DragView.swift in Sources */,
 				D825C2CF299551B200451898 /* EventTask.swift in Sources */,
 				D825C2D1299553C200451898 /* EventData.swift in Sources */,
 				D84471D62998AFBD002A89BD /* PandaCollectionFetcher.swift in Sources */,
@@ -510,6 +537,7 @@
 				D825C2D629955B2300451898 /* ColorOption.swift in Sources */,
 				D84471DF2998CED5002A89BD /* MotionDetector.swift in Sources */,
 				D825C2BB2994D12B00451898 /* FunFactsView.swift in Sources */,
+				D84471FF29993E4D002A89BD /* SingleLineView.swift in Sources */,
 				D825C2CB299543BF00451898 /* DatePlannerContentView.swift in Sources */,
 				D825C2E329955C6C00451898 /* EventSymbolPicker.swift in Sources */,
 				D825C29D2994B1F200451898 /* AboutMeContentView.swift in Sources */,
@@ -518,11 +546,13 @@
 				D84471EE29992191002A89BD /* SeismometerBrowser.swift in Sources */,
 				D825C2C82994DDF000451898 /* StoryPageView.swift in Sources */,
 				D825C2BD2994D12B00451898 /* StoryView.swift in Sources */,
+				D84471FD29993C00002A89BD /* RotateView.swift in Sources */,
 				D825C2BC2994D12B00451898 /* HomeView.swift in Sources */,
 				D84471F029992205002A89BD /* LineGraph.swift in Sources */,
 				D84471DA2998B0F6002A89BD /* Panda.swift in Sources */,
 				D825C2FC299778E300451898 /* ImageData.swift in Sources */,
 				D825C2B92994D12B00451898 /* AboutMeInfo.swift in Sources */,
+				D84471F7299934DD002A89BD /* TapView.swift in Sources */,
 				D84471CD2998914A002A89BD /* AlignmentView.swift in Sources */,
 				D825C2DB29955C1700451898 /* EventDetail.swift in Sources */,
 				D825C29B2994B1F200451898 /* SampleAppsApp.swift in Sources */,
@@ -534,6 +564,7 @@
 				D825C3082997869D00451898 /* PhotoPicker.swift in Sources */,
 				D84471EC29991F6A002A89BD /* GraphSeismometer.swift in Sources */,
 				D84471E3299913DC002A89BD /* DoubleExtension.swift in Sources */,
+				D84471F9299937E1002A89BD /* LongPressView.swift in Sources */,
 				D84471EA29991D0D002A89BD /* NeedleSeismometer.swift in Sources */,
 				D84471D42998AF5F002A89BD /* PandaMemeContentView.swift in Sources */,
 				D84471F22999220A002A89BD /* GaugeBackground.swift in Sources */,
@@ -548,6 +579,7 @@
 				D825C2FE29977CB700451898 /* FileManagerExtensions.swift in Sources */,
 				D825C3042997860100451898 /* ColumnStepper.swift in Sources */,
 				D825C3022997812800451898 /* ImageGridItemView.swift in Sources */,
+				D84471F5299934B5002A89BD /* GestureContentView.swift in Sources */,
 				D825C2C42994D82100451898 /* Story.swift in Sources */,
 				D825C2CD29954C5D00451898 /* Event.swift in Sources */,
 				D825C2FA299777CD00451898 /* ImageItem.swift in Sources */,
