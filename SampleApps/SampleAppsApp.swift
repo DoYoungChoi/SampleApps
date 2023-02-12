@@ -17,7 +17,8 @@ struct SampleAppsApp: App {
 //            ColorGridContentView()
 //            SymbolGridContentView()
 //            ImageGalleryContentView()
-            PandaMemeContentView()
+//            PandaMemeContentView()
+            BubbleLevelContentView()
         }
     }
 }

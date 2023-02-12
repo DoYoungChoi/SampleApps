@@ -81,6 +81,11 @@
 		D84471D82998AFE8002A89BD /* MemeCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84471D72998AFE8002A89BD /* MemeCreator.swift */; };
 		D84471DA2998B0F6002A89BD /* Panda.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84471D92998B0F6002A89BD /* Panda.swift */; };
 		D84471DC2998B958002A89BD /* LoadableImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84471DB2998B958002A89BD /* LoadableImage.swift */; };
+		D84471DF2998CED5002A89BD /* MotionDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84471DE2998CED5002A89BD /* MotionDetector.swift */; };
+		D84471E12999137C002A89BD /* OrientationDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84471E02999137C002A89BD /* OrientationDataView.swift */; };
+		D84471E3299913DC002A89BD /* DoubleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84471E2299913DC002A89BD /* DoubleExtension.swift */; };
+		D84471E529991A2C002A89BD /* BubbleLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84471E429991A2C002A89BD /* BubbleLevel.swift */; };
+		D84471E729991AE8002A89BD /* BubbleLevelContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84471E629991AE8002A89BD /* BubbleLevelContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -159,6 +164,11 @@
 		D84471D72998AFE8002A89BD /* MemeCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeCreator.swift; sourceTree = "<group>"; };
 		D84471D92998B0F6002A89BD /* Panda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Panda.swift; sourceTree = "<group>"; };
 		D84471DB2998B958002A89BD /* LoadableImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadableImage.swift; sourceTree = "<group>"; };
+		D84471DE2998CED5002A89BD /* MotionDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionDetector.swift; sourceTree = "<group>"; };
+		D84471E02999137C002A89BD /* OrientationDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrientationDataView.swift; sourceTree = "<group>"; };
+		D84471E2299913DC002A89BD /* DoubleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleExtension.swift; sourceTree = "<group>"; };
+		D84471E429991A2C002A89BD /* BubbleLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleLevel.swift; sourceTree = "<group>"; };
+		D84471E629991AE8002A89BD /* BubbleLevelContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleLevelContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +210,7 @@
 				D825C2F62997747800451898 /* ImageGallery */,
 				D825C3362997892A00451898 /* LayingOutViews */,
 				D84471D22998AEE8002A89BD /* PandaMeme */,
+				D84471DD2998CEB6002A89BD /* BubbleLevel */,
 				D825C29E2994B1F300451898 /* Assets.xcassets */,
 				D825C2A02994B1F300451898 /* Preview Content */,
 			);
@@ -357,6 +368,18 @@
 			path = PandaMeme;
 			sourceTree = "<group>";
 		};
+		D84471DD2998CEB6002A89BD /* BubbleLevel */ = {
+			isa = PBXGroup;
+			children = (
+				D84471DE2998CED5002A89BD /* MotionDetector.swift */,
+				D84471E02999137C002A89BD /* OrientationDataView.swift */,
+				D84471E2299913DC002A89BD /* DoubleExtension.swift */,
+				D84471E429991A2C002A89BD /* BubbleLevel.swift */,
+				D84471E629991AE8002A89BD /* BubbleLevelContentView.swift */,
+			);
+			path = BubbleLevel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -457,9 +480,12 @@
 				D825C2C02994D40600451898 /* MyStoryContentView.swift in Sources */,
 				D825C2DD29955C3400451898 /* EventRow.swift in Sources */,
 				D84471CF29989CCD002A89BD /* DebuggingView.swift in Sources */,
+				D84471E529991A2C002A89BD /* BubbleLevel.swift in Sources */,
 				D84471CB2997F7AA002A89BD /* SizingView.swift in Sources */,
+				D84471E12999137C002A89BD /* OrientationDataView.swift in Sources */,
 				D825C2E929961A8A00451898 /* SymbolGridContentView.swift in Sources */,
 				D825C2D629955B2300451898 /* ColorOption.swift in Sources */,
+				D84471DF2998CED5002A89BD /* MotionDetector.swift in Sources */,
 				D825C2BB2994D12B00451898 /* FunFactsView.swift in Sources */,
 				D825C2CB299543BF00451898 /* DatePlannerContentView.swift in Sources */,
 				D825C2E329955C6C00451898 /* EventSymbolPicker.swift in Sources */,
@@ -481,7 +507,9 @@
 				D84471DC2998B958002A89BD /* LoadableImage.swift in Sources */,
 				D825C33A299789CD00451898 /* LayingOutContentView.swift in Sources */,
 				D825C3082997869D00451898 /* PhotoPicker.swift in Sources */,
+				D84471E3299913DC002A89BD /* DoubleExtension.swift in Sources */,
 				D84471D42998AF5F002A89BD /* PandaMemeContentView.swift in Sources */,
+				D84471E729991AE8002A89BD /* BubbleLevelContentView.swift in Sources */,
 				D825C2F5299625BC00451898 /* SymbolPicker.swift in Sources */,
 				D84471D82998AFE8002A89BD /* MemeCreator.swift in Sources */,
 				D825C2C22994D5AE00451898 /* MyStory.swift in Sources */,
